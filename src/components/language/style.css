@@ -1,0 +1,39 @@
+.language-container {
+  width: fit-content;
+}
+.language-container > div {
+  width: 100%;
+}
+.lang-select {
+  width: 140px !important;
+}
+.lang-img {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+.multi-language {
+  width: 150px !important;
+  position: fixed;
+  top: 80px;
+  right: 70px;
+  z-index: 100;
+}
+@media screen and (max-width: 1000px) {
+  .language-container .ant-select-selection-item {
+    padding: 0px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .lang-select {
+    width: 120px !important;
+  }
+  .multi-language {
+    width: 150px !important;
+    position: fixed;
+    top: 80px;
+    right: 0px;
+    z-index: 100;
+  }
+}

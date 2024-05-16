@@ -1,0 +1,175 @@
+.admin-usermain {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 999 !important;
+  background-color: white;
+}
+.admin-user-navbar-cont {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 90px 0px 90px;
+   background-image: linear-gradient(
+      to bottom,
+      rgba(79, 88, 121, 0.1),
+      rgba(92, 110, 180, 0.3)
+    ),
+    url(../../images/payline-bg.jpg);
+  background-size: "cover";
+  background-repeat: "no-repeat";
+}
+.admin-user-navbar-cont > div {
+  width: fit-content !important;
+}
+.large-screen-admin-nav {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+.largeadmin-nav-menu-list {
+  display: flex;
+}
+.largeadmin-nav-list {
+  list-style-type: none;
+  margin: 0px 5px;
+  padding: 2px 10px;
+  background-color: rgb(0, 149, 235);
+}
+.largeadmin-nav-list:hover {
+  background-color: rgb(0, 149, 235, 0.8);
+}
+.largeadmin-nav-link {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.largeadmin-nav-link:hover {
+  color: white;
+}
+.small-screen-admin-nav {
+  display: none;
+}
+
+.admin-fas-cont {
+  display: none;
+}
+
+.admin-user-navbar-cont-1 {
+  display: flex;
+  align-items: center;
+}
+
+.admin-user-navbar-cont-2 {
+  display: flex;
+}
+.admin-user-navbar-logout {
+  padding: 2px 20px;
+  background-color: #0095eb;
+  box-shadow: 0px 0px 10px rgba(122, 122, 131, 0.7);
+  border-radius: 3px;
+  border: none;
+  color: white;
+  font-weight: 600;
+}
+.admin-user-navbar-logout > a {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+}
+.admin-user-navbar-logout > a:hover {
+  color: white;
+}
+.admin-user-navbar-logout:hover {
+  background-color: rgb(0, 149, 235, 0.7);
+  transition: all 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 1200px) {
+  .admin-user-navbar-cont {
+    padding: 0px 70px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .admin-user-navbar-cont {
+    padding: 0px 50px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .admin-user-navbar-cont {
+    padding: 0px 30px;
+  }
+  .small-screen-admin-nav {
+    display: block;
+    background-color: white;
+    padding: 30px 0px;
+  }
+  .large-screen-admin-nav {
+    display: none;
+  }
+  .smalladmin-nav-menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .smalladmin-nav-list {
+    width: 150px;
+    list-style-type: none;
+    margin: 5px 0px;
+    padding: 2px 10px;
+    background-color: rgb(0, 149, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .smalladmin-nav-list:hover {
+    background-color: rgb(0, 149, 235, 0.8);
+  }
+  .smalladmin-nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+  }
+  .smalladmin-nav-link:hover {
+    color: white;
+  }
+  .admin-fas-cont {
+    display: block;
+    margin-left: 10px;
+  }
+  .admin-fas-cont > .fas {
+    color: rgb(0, 149, 235);
+    cursor: pointer;
+    font-size: 35px;
+  }
+  .admin-user-navbar-logout {
+    padding: 2px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .admin-user-navbar-logout > a {
+    font-size: 15px;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 600px) {
+  .admin-user-navbar-cont {
+    padding: 0px 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .admin-user-navbar-cont {
+    padding: 0px 15px;
+  }
+}

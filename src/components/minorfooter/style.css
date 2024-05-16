@@ -1,0 +1,25 @@
+.minorfooter-main {
+  width: 100%;
+  border-top: 1px solid darkblue;
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 11;
+  background-color: white;
+}
+.minorfooter-main-1 {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.minorfooter-main-1 > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.minorfooter-main-1>div>p{
+  font-family: "Rubik", sans-serif;
+  text-align: center !important;
+}

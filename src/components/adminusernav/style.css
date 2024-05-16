@@ -1,0 +1,46 @@
+.admin-nav-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px 0px 0px;
+}
+
+.admin-menu-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+}
+
+.admin-link {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 13px;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  color: rgb(9, 3, 57);
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.admin-nav-list {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-link:hover {
+  color: black;
+  font-weight: 600;
+  border-bottom: 2px solid #0095eb;
+  transition: all 0.5s ease-in-out;
+}
+
+.admin-link.active {
+  color: black;
+  font-weight: 600;
+  border-bottom: 2px solid #0095eb;
+  transition: all 0.5s ease-in-out;
+}

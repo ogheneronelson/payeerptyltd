@@ -1,0 +1,151 @@
+.logo-cont {
+  position: relative;
+}
+
+.logo-link {
+  display: flex;
+  text-decoration: none;
+}
+
+.logo-image {
+  width: 45px;
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-cont {
+  margin: 0px 5px;
+}
+
+.logo-text {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 7px;
+  color: rgb(252, 245, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  flex-direction: column;
+  margin: 0 0 0 7px;
+  padding: 0;
+}
+
+.logo-text-1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  font-size: 14px;
+  line-height: normal;
+  color: rgb(231, 225, 225);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid white;
+}
+@media screen and (max-width: 1000px) {
+  .logo-image {
+    width: 45px;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-cont {
+    margin: 0px 5px;
+  }
+
+  .logo-text {
+    font-family: "Lato", sans-serif;
+
+    letter-spacing: 7px;
+
+    font-size: 20px;
+
+    margin: 0 0 0 7px;
+    padding: 0;
+  }
+
+  .logo-text-1 {
+    font-size: 13px;
+    border-top: 1px solid white;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .logo-image {
+    width: 45px;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-cont {
+    margin: 0px 5px;
+  }
+
+  .logo-text {
+    font-family: "Lato", sans-serif;
+
+    letter-spacing: 5px;
+
+    font-size: 19px;
+
+    margin: 0 0 0 6px;
+    padding: 0;
+  }
+
+  .logo-text-1 {
+    font-size: 15px;
+    border-top: 1px solid white;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logo-image {
+    width: 40px;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-cont {
+    margin: 0px 3px;
+  }
+
+  .logo-text {
+    font-family: "Lato", sans-serif;
+
+    letter-spacing: 4px;
+
+    font-size: 17px;
+
+    margin: 0 0 0 4px;
+    padding: 0;
+  }
+
+  .logo-text-1 {
+    font-size: 14px;
+    border-top: 1px solid white;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .logo-image-1 {
+    width: 35px;
+    object-fit: contain;
+  }
+  .text-cont {
+    display: none;
+  }
+}
