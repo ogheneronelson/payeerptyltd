@@ -1,0 +1,163 @@
+.changepassword-cont {
+  width: 100% !important;
+  min-height: 100vh;
+  padding: 90px 40px 50px 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(245, 246, 250);
+}
+
+.changepassword-cont-1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.passwordchange-form {
+  width: 40% !important;
+  justify-content: center !important;
+}
+
+.changepassword-cont > h3 {
+  font-size: 18px;
+  width: 100%;
+  text-align: center;
+  color: rgb(5, 29, 57);
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  margin: 40px 0px 30px 0px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.changepassword-cont .ant-form-item-label > label {
+  color: rgb(5, 5, 87) !important;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+}
+
+.changepassword-cont .account-form-item {
+  /* margin: 20px !important; */
+  width: 100% !important;
+}
+
+.changepassword-cont .account-form-input {
+  width: 100% !important;
+  height: 35px !important;
+  border: 1px solid rgb(141, 137, 137) !important;
+  box-shadow: none !important;
+}
+.changepassword-cont .account-button {
+  width: 100% !important;
+  height: 35px !important;
+  font-size: 16px !important;
+  background-color: rgb(5, 29, 57) !important;
+  font-weight: 600 !important;
+  color: white !important;
+  box-shadow: none !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 20px !important;
+}
+
+.changepassword-cont .account-button:disabled {
+  background-color: rgb(5, 29, 57, 0.4) !important;
+}
+.account-error {
+  text-align: center;
+  color: red;
+  font-family: "Lato", sans-serif;
+}
+
+.account-success {
+  text-align: center;
+  color: green;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+}
+
+@media screen and (max-width: 1300px) {
+  .changepassword-cont {
+    padding: 80px 40px 40px 40px;
+  }
+
+  .passwordchange-form {
+    width: 45% !important;
+    justify-content: center !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .changepassword-cont {
+    padding: 80px 40px 40px 40px;
+  }
+
+  .passwordchange-form {
+    width: 48% !important;
+    justify-content: center !important;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .changepassword-cont {
+    padding: 70px 40px 30px 40px;
+  }
+
+  .passwordchange-form {
+    width: 70% !important;
+    justify-content: center !important;
+  }
+
+  .changepassword-cont > h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .changepassword-cont .account-form-input {
+    height: 35px !important;
+  }
+
+  .changepassword-cont .account-button {
+    height: 35px !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  .changepassword-cont {
+    padding: 60px 30px 10px 30px;
+  }
+
+  .passwordchange-form {
+    width: 70% !important;
+    justify-content: center !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .changepassword-cont {
+    padding: 60px 25px 10px 25px;
+  }
+
+  .passwordchange-form {
+    width: 80% !important;
+    justify-content: center !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .changepassword-cont {
+    padding:100px 20px 10px 20px;
+  }
+
+  .passwordchange-form {
+    width: 90% !important;
+    justify-content: center !important;
+  }
+  .changepassword-cont > h3 {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+}

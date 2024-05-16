@@ -1,0 +1,413 @@
+.deposit-main {
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px 10px 30px 10px;
+}
+.deposit-main > h3 {
+  width: 100%;
+  text-align: center;
+  color:  #0095eb;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.deposit-main-2 {
+  width: 100%;
+}
+.table-data {
+  text-transform: uppercase !important;
+}
+.table-data-1 {
+  text-transform: capitalize !important;
+}
+.deposit-select-item {
+  width: 20% !important;
+  height: 35px !important;
+  border: 1px solid  #999999 !important;
+  box-shadow: none !important;
+}
+.cryptocoin-select,
+.ant-select-selector {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.crypto-coin-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+.deposit-main-sub {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0px 10px 0px;
+}
+.deposit-main-sub-1 {
+  width: 30%;
+}
+.deposit-main-sub-1 > p {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Rubik", sans-serif;
+  margin-bottom: 30px;
+}
+.deposit-main-sub-2 {
+  width: 70%;
+}
+.deposit-main-sub-2 > p {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Rubik", sans-serif;
+  margin-bottom: 15px;
+}
+.wallet-address-code {
+  display: flex;
+  align-items: center;
+}
+.wallet-address-input {
+  border: none;
+  background-color: white;
+  width: 60%;
+  color:  #0095eb;
+  font-weight: 600;
+  outline: none;
+  margin: 10px 0px 10px 0px;
+  padding: 2px 10px;
+}
+.wallet-copy-button {
+  color: white;
+  width: fit-content;
+  height: fit-content;
+  font-family: "Rubik", sans-serif;
+  padding: 2px 15px;
+  font-weight: 600;
+  border: none;
+  background-color:  #0095eb !important;
+  margin-left: 40px;
+}
+.wallet-address-img {
+  width: 140px;
+  height: 140px;
+}
+
+.wallet-address-note {
+  width: 100%;
+  padding: 10px 0px;
+}
+.wallet-address-note > h6 {
+  font-size: 16px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  margin-bottom: 5px !important;
+}
+.wallet-address-note > ul > li {
+  font-size: 14px;
+  font-family: "Rubik", sans-serif;
+
+  margin-bottom: 5px !important;
+}
+.deposit-form-item {
+  width: 25vw !important;
+  border: 1px solid  #999999 !important;
+  box-shadow: none !important;
+  margin-bottom: 25px !important;
+}
+
+.deposit-button {
+  width: 25vw !important;
+  height: 40px !important;
+  font-size: 18px !important;
+  background-color:  #0095eb !important;
+  font-weight: 600 !important;
+  color: white !important;
+  box-shadow: none !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 10px !important;
+}
+.deposit-form-input {
+  width: 100% !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.amount-form-item {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  margin-bottom: 25px !important;
+}
+
+.amount-form-input {
+  width: 25vw !important;
+  height: 35px !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.amount-form-item .ant-input-number,
+.amount-form-item .ant-input-number-in-form-item {
+  border-top: 1px solid  #999999 !important;
+  border-bottom: 1px solid  #999999 !important;
+  border-left: 1px solid  #999999 !important;
+}
+.amount-form-item .ant-input-number-input-wrap {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.amount-form-item .ant-input-number-group-addon {
+  border-top: 1px solid  #999999!important;
+  border-bottom: 1px solid  #999999!important;
+  border-right: 1px solid  #999999!important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.amount-form-item .ant-input-number {
+  width: 100% !important;
+}
+.deposit-table {
+  width: 100%;
+  padding: 30px 0px 0px 0px;
+}
+.deposit-table > h4 {
+  width: 100%;
+  text-align: center;
+  color:   #0095eb;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.invest-head {
+  color:  #999999 !important;
+}
+
+.deposit-short-note {
+  width: 100%;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.deposit-form .ant-form-item-control-input-content {
+  display: flex !important;
+  justify-content: center !important;
+}
+.deposit-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center !important;
+}
+.deposit-main-1 {
+  display: flex !important;
+  justify-content: center !important;
+}
+@media screen and (max-width: 1100px) {
+  .deposit-form-item {
+    width: 30vw !important;
+    margin-bottom: 25px !important;
+  }
+
+  .deposit-button {
+    width: 30vw !important;
+    height: 40px !important;
+    margin-top: 10px !important;
+  }
+  .deposit-select-item {
+    width: 30vw !important;
+  }
+  .amount-form-input {
+    width: 30vw !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .deposit-main {
+    padding: 20px 10px 30px 10px;
+  }
+  .deposit-main>h3{
+    font-size: 22px;
+  }
+  .deposit-main-sub {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 0px 10px 0px;
+    align-items: center;
+  }
+  .deposit-main-sub-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .deposit-main-sub-1 > p {
+    width: fit-content;
+    margin-bottom: 30px;
+  }
+  .deposit-main-sub-2 > p {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+  }
+  .deposit-main-sub-2 {
+    width: 100%;
+    margin: 25px 0px 0px 0px;
+  }
+  .deposit-main-sub-2 > p {
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .deposit-form-item {
+    width: 33vw !important;
+    margin-bottom: 25px !important;
+  }
+
+  .deposit-button {
+    width: 33vw !important;
+    height: 40px !important;
+    margin-top: 10px !important;
+  }
+  .deposit-select-item {
+    width: 33vw !important;
+  }
+  .amount-form-input {
+    width: 33vw !important;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .deposit-form-item {
+    width: 45vw !important;
+    margin-bottom: 25px !important;
+  }
+
+  .deposit-button {
+    width: 45vw !important;
+    height: 40px !important;
+    margin-top: 10px !important;
+  }
+  .deposit-select-item {
+    width: 45vw !important;
+  }
+  .amount-form-input {
+    width: 45vw !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .deposit-main {
+    padding: 0px 0px 30px 0px;
+  }
+  .deposit-main-sub {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 0px 10px 0px;
+  }
+  .deposit-main-sub-1 {
+    width: 100%;
+  }
+  .deposit-main-sub-1 > p {
+    margin-bottom: 30px;
+  }
+  .deposit-main-sub-2 {
+    width: 100%;
+  }
+  .deposit-main-sub-2 > p {
+    font-size: 15px;
+
+    margin: 25px 0px 15px 0px;
+  }
+  .deposit-form-item {
+    width: 55vw !important;
+    margin-bottom: 25px !important;
+  }
+
+  .deposit-button {
+    width: 55vw !important;
+    height: 40px !important;
+
+    margin-top: 10px !important;
+  }
+  .deposit-select-item {
+    width: 55vw !important;
+  }
+  .amount-form-input {
+    width: 55vw !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .deposit-main > h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .deposit-main {
+    padding: 0px 0px 30px 0px;
+  }
+  .wallet-address-code {
+    flex-direction: column;
+  }
+  .wallet-address-input {
+    width: 100%;
+
+    margin: 10px 0px 10px 0px;
+    padding: 2px 10px;
+  }
+  .wallet-copy-button {
+    margin: 0px;
+  }
+  .deposit-main-sub {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 0px 10px 0px;
+  }
+  .deposit-main-sub-1 {
+    width: 100%;
+  }
+  .deposit-main-sub-1 > p {
+    margin-bottom: 30px;
+  }
+  .deposit-main-sub-2 {
+    width: 100%;
+  }
+  .deposit-main-sub-2 > p {
+    font-size: 15px;
+
+    margin: 25px 0px 15px 0px;
+  }
+  .deposit-form-item {
+    width: 85vw !important;
+
+    margin-bottom: 25px !important;
+  }
+
+  .deposit-button {
+    width: 85vw !important;
+    height: 40px !important;
+
+    margin-top: 10px !important;
+  }
+  .deposit-select-item {
+    width: 85vw !important;
+  }
+  .amount-form-input {
+    width: 85vw !important;
+  }
+  .deposit-table {
+    padding: 10px 0px 0px 0px;
+  }
+  .deposit-table > h4 {
+    width: 100%;
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+}
