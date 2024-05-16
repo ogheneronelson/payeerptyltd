@@ -1,0 +1,129 @@
+.admin-messages-main {
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px 40px 0px 40px;
+}
+
+.admin-messages-main > h4 {
+  width: 100%;
+  text-align: center;
+  color: darkblue;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+.admin-messages-main-1{
+  width: 100% !important;
+  display: flex !important;
+  justify-content: space-between;
+}
+.admin-messages-main-1-1 {
+  width: 47%;
+  background-color: white;
+  box-shadow: 0px 0px 20px rgb(228, 226, 226) !important;
+  margin: 15px 0px !important;
+  padding: 25px 15px !important;
+  border-radius: 10px;
+}
+
+.admin-messages-title {
+  font-size: 16px;
+  color: rgb(39, 29, 80);
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+.admin-messages-body {
+  font-size: 16px;
+  color: black;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 5px;
+}
+
+.admin-messages-date {
+  font-size: 14px;
+  color: black;
+  font-family: "Lato", sans-serif;
+  text-align: right;
+}
+
+.admin-messages-link {
+  background-color: darkblue;
+  color: white;
+  padding: 3px 10px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  border: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .admin-messages-main {
+    padding: 40px 0px 0px 0px;
+  }
+  .admin-messages-main > h4 {
+    width: 100%;
+    font-size: 23px;
+    margin-bottom: 20px;
+  }
+
+  .admin-messages-main-1-1 {
+    width: 47%;
+    margin: 15px 10px !important;
+    padding: 25px 15px !important;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .admin-messages-main {
+    padding: 40px 0px 0px 0px;
+  }
+  .admin-messages-main > h4 {
+    width: 100%;
+    font-size: 23px;
+    margin-bottom: 20px;
+  }
+
+  .admin-messages-main-1-1 {
+    width: 45%;
+    margin: 15px 10px !important;
+    padding: 25px 15px !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  .admin-messages-main {
+    padding: 10px 0px 0px 0px;
+  }
+  .admin-messages-main > h4 {
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .admin-messages-main-1 {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .admin-messages-main-1-1 {
+    width: 85%;
+    margin: 15px 10px !important;
+    padding: 25px 15px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .admin-messages-main {
+    padding: 10px 10px 0px 10px;
+  }
+  .admin-messages-main > h4 {
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .admin-messages-main-1-1 {
+    width: 100%;
+    margin: 15px 10px !important;
+    padding: 25px 15px !important;
+  }
+}

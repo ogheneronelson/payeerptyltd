@@ -1,0 +1,58 @@
+.admin-user-transfer {
+  width: 100%;
+  padding: 0px 90px 40px 90px;
+}
+
+.admin-user-transfer > h4 {
+  width: 100%;
+  text-align: center;
+  color: darkblue;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.admin-transfer-button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.admin-transfer-button > button {
+  color: blue;
+  border: none;
+  font-weight: 600;
+  background-color: transparent;
+}
+.table-responsive {
+  width: 100% !important;
+}
+
+.table-data {
+  text-transform: uppercase !important;
+}
+.table-data-1 {
+  text-transform: capitalize !important;
+}
+
+@media screen and (max-width: 1000px) {
+  .admin-user-transfer {
+    padding: 0px 50px 30px 50px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .admin-user-transfer {
+    padding: 0px 30px 20px 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .admin-user-transfer {
+    padding: 0px 20px 20px 20px;
+  }
+  .admin-user-transfer > h4 {
+    font-size: 16px;
+  }
+}

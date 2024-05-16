@@ -1,0 +1,133 @@
+.main-market {
+  width: 100%;
+  background-color: rgb(22, 24, 28);
+}
+.reuse-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.reuse-heading {
+  width: max-content;
+  height: max-content;
+  color: white;
+  font-size: 40px;
+  border-bottom: 2px solid white;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 30px;
+}
+.r {
+  color: #0095eb;
+}
+
+.reuse-text {
+  width: max-content;
+  height: max-content;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  color: #0095eb;
+  font-size: 16px;
+}
+.reuse-text > span {
+  color: white;
+}
+.market-main-cont {
+  padding: 0px 120px 70px 120px;
+}
+.main-market > div > h1 {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  font-family: "Lato", sans-serif;
+  margin: 40px 0px 40px 0px;
+}
+.main-market > div > ol > li {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #999999;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 15px;
+}
+.main-market > div > p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #999999;
+  text-align: justify;
+  font-family: "Lato", sans-serif;
+}
+@media screen and (max-width: 1000px) {
+  .market-main-cont {
+    padding: 0px 70px 50px 70px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .market-main-cont {
+    padding: 0px 50px 50px 50px;
+  }
+  .main-market h1 {
+    font-size: 27px;
+  }
+  .main-market ol li {
+    font-size: 16px;
+  }
+  .main-market p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 800px) {
+ 
+  .market-main-cont {
+    padding: 0px 30px 40px 30px;
+  }
+  .main-market {
+    width: 100%;
+  }
+
+  .main-market h1 {
+    font-size: 25px;
+  }
+  .main-market ol li {
+    font-size: 16px;
+  }
+  .main-market p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .market-main-cont {
+    padding: 0px 20px 30px 20px;
+  }
+  .reuse-container {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+  }
+  .reuse-heading {
+    font-size: 25px;
+    margin: 50px 0px 10px 0px;
+  }
+
+  .reuse-text {
+    font-size: 14px;
+  }
+  .main-market > div > h1 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .main-market ol li {
+    font-size: 16px;
+  }
+  .main-market p {
+    font-size: 16px;
+  }
+}

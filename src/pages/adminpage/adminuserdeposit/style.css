@@ -1,0 +1,84 @@
+.admin-user-deposit {
+  width: 100%;
+  padding: 0px 90px 40px 90px;
+}
+
+.admin-user-deposit > h4 {
+  width: 100%;
+  text-align: center;
+  color: darkblue;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.admin-depo-button {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.admin-depo-button > button {
+  color: blue;
+  border: none;
+  font-weight: 600;
+  background-color: transparent;
+}
+
+.table-responsive {
+  width: 100% !important;
+}
+
+.table-data {
+  text-transform: uppercase !important;
+}
+.table-data-1 {
+  text-transform: capitalize !important;
+}
+.admin-btc-cont{
+  width: 100%;
+  padding: 0px 0px 30px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.edit-form-input {
+  width: 250px;
+  box-shadow: none !important;
+  height: 35px !important;
+  border: 1px solid black !important;
+}
+.edit-form-button {
+  font-size: 18px !important;
+  background-color: blue !important;
+  font-weight: 600 !important;
+  color: white !important;
+  box-shadow: none !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 15px !important;
+  border: none !important;
+}
+@media screen and (max-width: 1000px) {
+  .admin-user-deposit {
+    padding: 0px 50px 30px 50px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .admin-user-deposit {
+    padding: 0px 30px 20px 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .admin-user-deposit {
+    padding: 0px 20px 20px 20px;
+  }
+  .admin-user-deposit > h4 {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,467 @@
+.contact-main {
+  width: 100%;
+  background-color: rgb(22, 24, 28);
+}
+.reuse-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.reuse-heading {
+  width: max-content;
+  height: max-content;
+  color: white;
+  font-size: 40px;
+  border-bottom: 2px solid white;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 30px;
+}
+
+.reuse-text {
+  width: max-content;
+  height: max-content;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  color: #0095eb;
+  font-size: 16px;
+}
+.reuse-text > span {
+  color: white;
+}
+.contact-container-main {
+  padding: 0px 120px 70px 120px;
+}
+
+.contact-main > div > h2 {
+  width: fit-content;
+  padding: 0px 40px 20px 0px;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  margin: 40px 0px 40px 20px;
+  text-transform: uppercase;
+  border-bottom: 3px solid white;
+}
+.contact-sub {
+  width: 100%;
+  display: flex;
+  border-radius: 5px;
+  border: none;
+}
+
+.contact-sub-1 {
+  flex: 5.5;
+  padding: 0px 30px 0px 0px;
+}
+.contact-sub-1 > h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 30px;
+  color: white;
+}
+.contact-sub-2 {
+  flex: 4.5;
+  padding: 65px 20px;
+}
+.contact-sub-2 > div > h3 {
+  font-size: 21px;
+  text-transform: capitalize;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 5px;
+  color: white;
+}
+.contact-sub-2 > div > p {
+  font-size: 16px;
+  color: #999999;
+  font-family: "Lato", sans-serif;
+}
+.contact-sub-1-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.message-div-input {
+  width: 18vw !important;
+}
+
+#messages_name::placeholder {
+  color: rgb(6, 6, 59) !important;
+  font-weight: 600 !important;
+  font-family: "Lato", sans-serif !important;
+  text-transform: capitalize !important;
+}
+
+#messages_message::placeholder {
+  color: rgb(6, 6, 59) !important;
+  font-weight: 600 !important;
+  font-family: "Lato", sans-serif !important;
+  text-transform: capitalize !important;
+}
+
+#messages_email::placeholder {
+  color: rgb(6, 6, 59) !important;
+  font-weight: 600 !important;
+  font-family: "Lato", sans-serif !important;
+  text-transform: capitalize !important;
+}
+
+#messages_subject::placeholder {
+  color: rgb(6, 6, 59) !important;
+  font-weight: 600 !important;
+  font-family: "Lato", sans-serif !important;
+  text-transform: capitalize !important;
+}
+.message-button {
+  width: fit-content !important;
+  height: fit-content !important;
+  color: white !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  font-family: "Lato", sans-serif !important;
+  background-color: #0095eb !important;
+  padding: 7px 25px !important;
+  border-radius: 5px !important;
+}
+.contact-address {
+  width: 100%;
+}
+.contact-address > iframe {
+  height: 100vh;
+}
+.contact-container-main > div > ul > li {
+  color: #999999;
+}
+
+@media screen and (max-width: 1200px) {
+  .contact-main {
+    width: 100%;
+    padding: 0px 0px;
+  }
+  .contact-container-main {
+    padding: 0px 70px 40px 70px;
+  }
+  .message-form-cont {
+    margin: 0px 30px 0px 0px !important;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .contact-main {
+    width: 100%;
+    padding: 0px 0px;
+  }
+  .contact-container-main {
+    padding: 0px 50px 40px 50px;
+  }
+  .contact-main > div > h2 {
+    font-size: 25px;
+    padding: 0px 20px 10px 0px;
+    margin-bottom: 20px;
+  }
+  .contact-sub {
+    padding: 30px 0px 0px 0px;
+    margin: 30px 0px 10px 0px;
+  }
+
+  .contact-sub-1 {
+    flex: 5.5;
+    padding: 0px 30px 0px 0px;
+  }
+  .contact-sub-1 > h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .contact-sub-2 {
+    flex: 4.5;
+    padding: 45px 20px;
+  }
+  .contact-sub-2 > div > h3 {
+    font-size: 19px;
+    margin-bottom: 5px;
+  }
+  .contact-sub-2 > div > p {
+    font-size: 13px;
+  }
+  .contact-sub-1-1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .message-div-input {
+    width: 20vw !important;
+  }
+  .message-form-cont {
+    margin: 0px 30px 0px 0px !important;
+  }
+  #messages_name::placeholder {
+    font-size: 13px !important;
+    color: white !important;
+    font-weight: 600 !important;
+    font-family: "Lato", sans-serif !important;
+    text-transform: capitalize !important;
+  }
+
+  #messages_message::placeholder {
+    font-size: 13px !important;
+    color: white !important;
+    font-weight: 600 !important;
+    font-family: "Lato", sans-serif !important;
+    text-transform: capitalize !important;
+  }
+
+  #messages_email::placeholder {
+    font-size: 13px !important;
+    color: white !important;
+    font-weight: 600 !important;
+    font-family: "Lato", sans-serif !important;
+    text-transform: capitalize !important;
+  }
+
+  #messages_subject::placeholder {
+    font-size: 13px !important;
+    color: white !important;
+    font-weight: 600 !important;
+    font-family: "Lato", sans-serif !important;
+    text-transform: capitalize !important;
+  }
+  .message-button {
+    font-size: 14px !important;
+    padding: 5px 20px !important;
+  }
+  .contact-address > iframe {
+    height: 90vh;
+  }
+}
+@media screen and (max-width: 800px) {
+  .contact-main {
+    width: 100%;
+    padding: 0px 0px;
+  }
+  .contact-container-main {
+    padding: 0px 30px 30px 30px;
+  }
+  .contact-main > div > h2 {
+    font-size: 25px;
+    padding: 0px 20px 10px 0px;
+    margin-bottom: 20px;
+  }
+  .contact-sub {
+    padding: 30px 0px 0px 0px;
+    margin: 30px 0px 10px 0px;
+    flex-direction: column;
+  }
+
+  .contact-sub-1 {
+    padding: 0px 0px 0px 0px;
+  }
+  .contact-sub-1 > h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .contact-sub-2 {
+    padding: 45px 0px;
+  }
+  .contact-sub-2 > div > h3 {
+    font-size: 19px;
+    margin-bottom: 5px;
+  }
+  .contact-sub-2 > div > p {
+    font-size: 13px;
+  }
+  .contact-sub-1-1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .message-div-input {
+    width: 35vw !important;
+  }
+  .message-form-cont {
+    margin: 0px 30px 0px 0px !important;
+  }
+  #messages_name::placeholder {
+    font-size: 13px !important;
+    color: white !important;
+    font-weight: 600 !important;
+    font-family: "Lato", sans-serif !important;
+    text-transform: capitalize !important;
+  }
+
+  #messages_message::placeholder {
+    font-size: 13px !important;
+    color: white !important;
+    font-weight: 600 !important;
+    font-family: "Lato", sans-serif !important;
+    text-transform: capitalize !important;
+  }
+
+  #messages_email::placeholder {
+    font-size: 13px !important;
+    color: white !important;
+    font-weight: 600 !important;
+    font-family: "Lato", sans-serif !important;
+    text-transform: capitalize !important;
+  }
+
+  #messages_subject::placeholder {
+    font-size: 13px !important;
+    color: white !important;
+    font-weight: 600 !important;
+    font-family: "Lato", sans-serif !important;
+    text-transform: capitalize !important;
+  }
+  .message-button {
+    font-size: 14px !important;
+    padding: 5px 20px !important;
+  }
+  .contact-address > iframe {
+    height: 80vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contact-main {
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+  }
+  .contact-container-main {
+    padding: 0px 20px 30px 20px;
+  }
+  .reuse-container {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+  }
+  .reuse-heading {
+    font-size: 25px;
+  }
+
+  .reuse-text {
+    font-size: 14px;
+  }
+  .contact-main > div > h2 {
+    font-size: 25px;
+    padding: 0px 20px 10px 0px;
+    margin-bottom: 20px;
+  }
+  .contact-sub {
+    padding: 30px 0px 0px 0px;
+    margin: 40px 0px 10px 0px;
+    flex-direction: column;
+  }
+
+  .contact-sub-1 {
+    padding: 0px 0px 0px 0px;
+  }
+  .contact-sub-1 > h2 {
+    font-size: 21px;
+    margin-bottom: 20px;
+  }
+  .contact-sub-2 {
+    padding: 25px 0px;
+  }
+  .contact-sub-2 > div > h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .contact-sub-2 > div > p {
+    font-size: 15px;
+  }
+  .contact-sub-1-1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .message-div-input {
+    width: 100% !important;
+  }
+  .message-form-cont {
+    margin: 0px 30px 0px 0px !important;
+  }
+  #messages_name::placeholder {
+    font-size: 12px !important;
+    color: white !important;
+    font-weight: 600 !important;
+    font-family: "Lato", sans-serif !important;
+    text-transform: capitalize !important;
+  }
+
+  #messages_message::placeholder {
+    font-size: 12px !important;
+    color: white !important;
+    font-weight: 600 !important;
+    font-family: "Lato", sans-serif !important;
+    text-transform: capitalize !important;
+  }
+
+  #messages_email::placeholder {
+    font-size: 12px !important;
+    color: white !important;
+    font-weight: 600 !important;
+    font-family: "Lato", sans-serif !important;
+    text-transform: capitalize !important;
+  }
+
+  #messages_subject::placeholder {
+    font-size: 12px !important;
+    color: white !important;
+    font-weight: 600 !important;
+    font-family: "Lato", sans-serif !important;
+    text-transform: capitalize !important;
+  }
+  .message-button {
+    font-size: 14px !important;
+    padding: 5px 20px !important;
+  }
+  .contact-address > iframe {
+    height: 60vh;
+  }
+}
+
+.contact-main > div > ul {
+  padding-left: 0px;
+  margin-top: 60px;
+}
+.contact-main > div > ul li {
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #999999;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 10px;
+}
+.contact-main > div > ul li:nth-child(1) {
+  margin-bottom: 30px;
+}
+.contact-main > div > ul li:last-child {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.contact-main > div > ul li a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .contact-main > div > {
+    padding: 30px 20px 40px 20px;
+  }
+  .contact-main > div > h1 {
+    font-size: 20px;
+  }
+  .contact-main > div > ul {
+    padding-left: 0px;
+    margin-top: 30px;
+  }
+
+  .contact-main > div > ul li {
+    font-size: 16px;
+  }
+  .contact-main > div > ul li:nth-child(1) {
+    margin-bottom: 20px;
+  }
+  .contact-main > div > ul li:last-child {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,55 @@
+.exchange-main {
+  width: 100%;
+  background-color: rgb(245,246,250);
+
+}
+.exchange-main-1 {
+  width: 100%;
+  min-height: 100vh;
+  padding: 90px 40px 50px 40px;
+  display: flex;
+  flex-direction: column;
+}
+.exchange-main-1 > h3 {
+  width: 100%;
+  text-align: center;
+  color: darkblue;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.crypto-converter-link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.crypto-converter-link > a {
+  width: 100%;
+  color: white;
+  background-color: rgb(5, 29, 57);
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 10px;
+}
+@media screen and (max-width: 1000px) {
+  .exchange-container {
+    width: 100%;
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 800px) {
+  .exchange-container {
+    width: 100%;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .exchange-main-1 {
+    padding: 30px 20px 30px 20px;
+    margin-top: 0px;
+    border: 10px solid rgb(216, 216, 218, 0.4);
+  }
+}
