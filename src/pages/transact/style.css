@@ -1,0 +1,401 @@
+.transact-main {
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.transact-main > h3 {
+  width: 100%;
+  text-align: center;
+  color: darkblue;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.transact-form {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.transact-select-item {
+  width: 25vw !important;
+  height: 35px !important;
+  border: 1px solid darkblue !important;
+  box-shadow: none !important;
+}
+.transact-cryptocoin-select,
+.ant-select-selector {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.transact-amount-item {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  margin-bottom: 25px !important;
+}
+
+.transact-amount-input {
+  width: 25vw !important;
+  height: 35px !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.transact-amount-item .ant-input-number,
+.transact-amount-item .ant-input-number-in-form-item {
+  border-top: 1px solid darkblue !important;
+  border-bottom: 1px solid darkblue !important;
+  border-left: 1px solid darkblue !important;
+}
+.transact-form-item .ant-input-number-input-wrap {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.transact-amount-item .ant-input-number-group-addon {
+  border-top: 1px solid darkblue !important;
+  border-bottom: 1px solid darkblue !important;
+  border-right: 1px solid darkblue !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.transact-amount-item .ant-input-number {
+  width: 100% !important;
+}
+.transact-form-input {
+  width: 25vw !important;
+  height: 35px !important;
+  border: 1px solid darkblue !important;
+  box-shadow: none !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.withraw-button-item {
+  width: fit-content !important;
+}
+.transact-button {
+  width: 25vw !important;
+  height: 40px !important;
+  font-size: 18px !important;
+  background-color: rgb(9, 51, 98) !important;
+
+  font-weight: 600 !important;
+  color: white !important;
+  box-shadow: none !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 15px !important;
+}
+.transact-note {
+  width: 25vw;
+}
+.transact-table {
+  width: 100%;
+  padding: 30px 0px 0px 0px;
+}
+.transact-table > h4 {
+  width: 100%;
+  text-align: center;
+  color: darkblue;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.table-data {
+  text-transform: uppercase !important;
+}
+.table-data-1 {
+  text-transform: capitalize !important;
+}
+
+@media screen and (max-width: 1000px) {
+  .transact-main {
+    width: 100%;
+    padding: 50px 10px 0px 10px;
+  }
+  .transact-main > h3 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .transact-select-item {
+    width: 30vw !important;
+  }
+
+  .transact-amount-item {
+    margin-bottom: 25px !important;
+  }
+
+  .transact-amount-input {
+    width: 30vw !important;
+  }
+  .transact-form-input {
+    width: 30vw !important;
+  }
+
+  .withraw-button-item {
+    width: fit-content !important;
+  }
+  .transact-button {
+    width: 30vw !important;
+    height: 40px !important;
+    margin-top: 15px !important;
+  }
+  .transact-note {
+    width: 30vw;
+  }
+  .transact-table {
+    width: 100%;
+    padding: 30px 0px 0px 0px;
+  }
+  .transact-table > h4 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .transact-main {
+    width: 100%;
+    padding: 50px 10px 0px 10px;
+  }
+  .transact-main > h3 {
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .transact-select-item {
+    width: 35vw !important;
+  }
+
+  .transact-amount-item {
+    margin-bottom: 25px !important;
+  }
+
+  .transact-amount-input {
+    width: 35vw !important;
+  }
+  .transact-form-input {
+    width: 35vw !important;
+  }
+
+  .withraw-button-item {
+    width: fit-content !important;
+  }
+  .transact-button {
+    width: 35vw !important;
+    height: 35px !important;
+    margin-top: 15px !important;
+  }
+  .transact-note {
+    width: 35vw;
+  }
+  .transact-table {
+    width: 100%;
+    padding: 20px 0px 0px 0px;
+  }
+  .transact-table > h4 {
+    font-size: 17px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .transact-main {
+    width: 100%;
+    padding: 30px 10px 0px 10px;
+  }
+  .transact-main > h3 {
+    font-size: 21px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .transact-select-item {
+    width: 40vw !important;
+  }
+
+  .transact-amount-item {
+    margin-bottom: 25px !important;
+  }
+
+  .transact-amount-input {
+    width: 40vw !important;
+  }
+  .transact-form-input {
+    width: 40vw !important;
+  }
+
+  .withraw-button-item {
+    width: fit-content !important;
+  }
+  .transact-button {
+    width: 40vw !important;
+    height: 35px !important;
+    margin-top: 15px !important;
+  }
+  .transact-note {
+    width: 40vw;
+  }
+  .transact-table {
+    width: 100%;
+    padding: 20px 0px 0px 0px;
+  }
+  .transact-table > h4 {
+    font-size: 17px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .transact-main {
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+  }
+  .transact-main > h3 {
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .transact-select-item {
+    width: 50vw !important;
+  }
+
+  .transact-amount-item {
+    margin-bottom: 25px !important;
+  }
+
+  .transact-amount-input {
+    width: 50vw !important;
+  }
+  .transact-form-input {
+    width: 50vw !important;
+  }
+
+  .withraw-button-item {
+    width: fit-content !important;
+  }
+  .transact-button {
+    width: 50vw !important;
+    height: 35px !important;
+    margin-top: 15px !important;
+  }
+  .transact-note {
+    width: 50vw;
+  }
+  .transact-table {
+    width: 100%;
+    padding: 10px 0px 0px 0px;
+  }
+  .transact-table > h4 {
+    font-size: 19px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .transact-main {
+    width: 100%;
+    padding: 10px 0px 0px 0px;
+  }
+  .transact-main > h3 {
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .transact-select-item {
+    width: 80vw !important;
+  }
+
+  .transact-amount-item {
+    margin-bottom: 25px !important;
+  }
+
+  .transact-amount-input {
+    width: 80vw !important;
+  }
+  .transact-form-input {
+    width: 80vw !important;
+  }
+
+  .withraw-button-item {
+    width: fit-content !important;
+  }
+  .transact-button {
+    width: 80vw !important;
+    height: 35px !important;
+    margin-top: 15px !important;
+  }
+  .transact-note {
+    width: 80vw;
+  }
+  .transact-table {
+    width: 100%;
+    padding: 10px 0px 0px 0px;
+  }
+  .transact-table > h4 {
+    font-size: 19px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .transact-main {
+    width: 100%;
+    padding: 10px 0px 0px 0px;
+  }
+  .transact-main > h3 {
+    font-size: 17px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .transact-select-item {
+    width: 85vw !important;
+  }
+
+  .transact-amount-item {
+    margin-bottom: 25px !important;
+  }
+
+  .transact-amount-input {
+    width: 85vw !important;
+  }
+  .transact-form-input {
+    width: 85vw !important;
+  }
+
+  .withraw-button-item {
+    width: fit-content !important;
+  }
+  .transact-button {
+    width: 85vw !important;
+    height: 35px !important;
+    margin-top: 15px !important;
+  }
+  .transact-note {
+    width: 85vw;
+  }
+  .transact-table {
+    width: 100%;
+    padding: 10px 0px 0px 0px;
+  }
+  .transact-table > h4 {
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
