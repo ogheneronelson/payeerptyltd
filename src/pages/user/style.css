@@ -1,0 +1,213 @@
+.user-main {
+  width: 100%;
+}
+
+.user-main-1 {
+  width: 100%;
+  min-height: 100vh;
+  padding: 90px 40px 50px 40px;
+  margin-top: 60px;
+  background-color: rgb(221, 223, 232);
+}
+
+.user-main-1 > h2 {
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  color: #0095eb;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.user-main-1-0 {
+  width: 100%;
+  display: flex;
+}
+
+.user-main-1-1 {
+  flex: 5;
+  padding: 0px 60px 0px 60px;
+}
+
+.user-main-1-1 > h3 {
+  font-size: 18px;
+  width: 100%;
+  text-align: center;
+  color: #0095eb;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.user-main-1-1 .ant-form-item-label > label {
+  color: #999999 !important;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+}
+
+.user-main-1-1 .account-form-item {
+  margin: 15px !important;
+}
+
+.user-main-1-1 .account-form-input {
+  width: 100% !important;
+  height: 40px !important;
+  color: black !important;
+  font-weight: 400;
+  border: 1px solid rgb(230, 225, 225) !important;
+  box-shadow: none !important;
+}
+
+.change-curr {
+  width: 100%;
+}
+.change-curr > h4 {
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  color: #0095eb;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  margin: 40px 0 15px 0;
+}
+.change-curr-item {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.change-curr-button {
+  width: 100% !important;
+  height: 35px !important;
+  font-size: 18px !important;
+  background-color: #0095eb !important;
+  font-weight: 600 !important;
+  color: white !important;
+  box-shadow: none !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+@media screen and (max-width: 1300px) {
+  .user-main-1-1 {
+    flex: 5;
+    padding: 0px 40px 0px 40px;
+  }
+  .user-main-1-2 {
+    flex: 5;
+    padding: 0px 40px 0px 40px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .user-main-1-1 {
+    flex: 5;
+    padding: 0px 20px 0px 20px;
+  }
+  .user-main-1-2 {
+    flex: 5;
+    padding: 0px 20px 0px 20px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .user-main-1-1 {
+    flex: 5;
+    padding: 0px 15px 0px 15px;
+  }
+  .user-main-1-2 {
+    flex: 5;
+    padding: 0px 15px 0px 15px;
+  }
+  .user-main-1 {
+    padding: 60px 30px 50px 30px;
+    margin-top: 60px;
+  }
+
+  .user-main-1 > h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .user-main-1-1 > h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .user-main-1-2 > h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .account-referral > h5 {
+    font-size: 16px;
+  }
+  .user-main-1-1 .account-form-input {
+    height: 35px !important;
+  }
+
+  .user-main-1-2 .account-form-input {
+    height: 35px !important;
+  }
+
+  .user-main-1-2 .account-button {
+    height: 35px !important;
+  }
+
+  .change-curr > h4 {
+    font-size: 15px;
+    margin: 40px 0 15px 0;
+  }
+  .change-curr-button {
+    height: 35px !important;
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .user-main-1 {
+    padding: 60px 20px 50px 20px;
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .user-main-1 {
+    padding: 110px 0px 40px 0px;
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .user-main-1 {
+    padding: 150px 0px 40px 0px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .user-main-1 {
+    padding: 150px 0px 40px 0px;
+  }
+  .user-main-1 > h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .user-main-1-0 {
+    flex-direction: column;
+  }
+  .user-main-1-1 > h3 {
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+  .user-main-1-2 > h3 {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  .change-curr > h4 {
+    font-size: 15px;
+    margin: 25px 0 10px 0;
+  }
+  
+}

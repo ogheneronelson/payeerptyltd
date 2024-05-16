@@ -1,0 +1,66 @@
+.password-link-main {
+  width: 100%;
+  min-height: 80vh;
+  padding: 0px 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.password-link-main > div {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.password-link-main > div > h3 {
+  color: #0095eb;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+}
+.password-link-main > div > p {
+  color: rgb(16, 18, 57);
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+}
+@media screen and (max-width: 1200px) {
+  .password-link-main {
+    padding: 0px 70px;
+  }
+  .password-link-main > div {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .password-link-main {
+    padding: 0px 50px;
+  }
+  .password-link-main > div {
+    width: 55%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .password-link-main {
+    padding: 0px 30px;
+  }
+  .password-link-main > div {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .password-link-main {
+    padding: 0px 20px;
+  }
+  .password-link-main > div {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .password-link-main {
+    padding: 0px 20px;
+  }
+  .password-link-main > div {
+    width: 100%;
+  }
+}

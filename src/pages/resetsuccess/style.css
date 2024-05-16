@@ -1,0 +1,75 @@
+.password-reset-success-main {
+  width: 100%;
+  min-height: 80vh;
+  padding: 0px 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.password-reset-success-main > div {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.password-reset-success-main > div > h4 {
+  color: #0095eb;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+.password-reset-success-main > div > p {
+  color: #999999;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+}
+.password-reset-success-main > div > a {
+  text-decoration: none;
+  color: white;
+  margin: 10px 0px;
+  padding: 5px 20px;
+  background-color: #0095eb;
+  border: 2px solid #0095eb;
+}
+@media screen and (max-width: 1200px) {
+  .password-reset-success-main {
+    padding: 0px 70px;
+  }
+  .password-reset-success-main > div {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .password-reset-success-main {
+    padding: 0px 50px;
+  }
+  .password-reset-success-main > div {
+    width: 55%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .password-reset-success-main {
+    padding: 0px 30px;
+  }
+  .password-reset-success-main > div {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .password-reset-success-main {
+    padding: 0px 20px;
+  }
+  .password-reset-success-main > div {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .password-reset-success-main {
+    padding: 0px 20px;
+  }
+  .password-reset-success-main > div {
+    width: 100%;
+  }
+}
