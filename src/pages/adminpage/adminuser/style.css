@@ -1,0 +1,70 @@
+.admin-user {
+  width: 100%;
+  padding: 60px 90px 0px 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.admin-user-1 > h2 {
+  color: darkblue;
+  text-align: center;
+  margin: 0px 0px 20px 0px;
+}
+.admin-user-2 > h6 {
+  color: rgb(7, 7, 79);
+  margin: 0px 0px 10px 0px;
+}
+.admin-user-2 > h6 > span {
+  color: steelblue;
+}
+.admin-user-edit > button {
+  width: 150px;
+  border: none;
+  background-color: blue;
+  padding: 5px 30px;
+  margin-top: 20px;
+}
+.admin-user-edit > button > a {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.admin-user-3 > button {
+  width: 150px;
+  color: white;
+  font-weight: 600;
+  border: none;
+  background-color: blue;
+  margin: 20px 0px 0px 0px;
+  padding: 5px 30px;
+}
+
+.send-mail-button {
+  width: 150px;
+  color: white;
+  font-weight: 600;
+  border: none;
+  background-color: blue;
+  margin: 20px 0px 0px 0px;
+  padding: 5px 30px;
+}
+
+.admin-user-4 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.table-data-1 {
+  text-transform: capitalize !important;
+}
+@media screen and (max-width: 600px) {
+  .admin-user {
+    width: 100%;
+    padding: 0px 20px;
+  }
+  .admin-user-1 > h2 {
+    font-size: 20px;
+  }
+}

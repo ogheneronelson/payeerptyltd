@@ -1,0 +1,178 @@
+.admin-sendmail-main {
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.admin-sendmail-main > h3 {
+  width: 100%;
+  text-align: center;
+  color: darkblue;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.admin-sendmail-select-item {
+  width: 35vw !important;
+  height: 35px !important;
+  border: 1px solid darkblue !important;
+  box-shadow: none !important;
+}
+
+.admin-sendmail-select,
+.ant-select-selector {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.admin-sendmail-form-item .ant-input-number-input-wrap {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.admin-sendmail-form-input {
+  width: 35vw !important;
+  border: 1px solid darkblue !important;
+  box-shadow: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  margin: 8px 0px 10px 0px;
+}
+
+.admin-sendmail-button {
+  width: 18vw !important;
+  height: 40px !important;
+  font-size: 18px !important;
+  background-color: blue !important;
+  font-weight: 600 !important;
+  color: white !important;
+  box-shadow: none !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 0px !important;
+  border: none;
+  margin-top: 20px !important;
+  margin-bottom: 50px;
+}
+
+.admin-sendmail-form-cont{
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1000px) {
+  .admin-sendmail-main {
+    padding: 40px 0px 0px 0px;
+  }
+
+  .admin-sendmail-main > h3 {
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 23px;
+  }
+
+  .admin-sendmail-select-item {
+    width: 45vw !important;
+  }
+
+  .admin-sendmail-form-input {
+    width: 45vw !important;
+  }
+
+  .admin-sendmail-button {
+    width: 23vw !important;
+    height: 40px !important;
+    margin-top: 20px !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .admin-sendmail-main {
+    padding: 30px 0px 0px 0px;
+    min-height: max-content !important;
+  }
+
+  .admin-sendmail-main > h3 {
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 21px;
+  }
+
+  .admin-sendmail-select-item {
+    width: 55vw !important;
+  }
+
+  .admin-sendmail-form-input {
+    width: 55vw !important;
+  }
+
+  .admin-sendmail-button {
+    width: 28vw !important;
+    font-size: 16px !important;
+    height: 35px !important;
+    margin-top: 15px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .admin-sendmail-main {
+    padding: 10px 0px 0px 0px;
+    min-height: max-content !important;
+  }
+
+  .admin-sendmail-main > h3 {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+
+  .admin-sendmail-select-item {
+    width: 70vw !important;
+  }
+
+  .admin-sendmail-form-input {
+    width: 70vw !important;
+  }
+
+  .admin-sendmail-button {
+    width: 70vw !important;
+    font-size: 16px !important;
+    height: 35px !important;
+    margin-top: 0px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .admin-sendmail-main {
+    min-height: max-content !important;
+    padding: 10px 0px 0px 0px;
+  }
+
+  .admin-sendmail-main > h3 {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+
+  .admin-sendmail-select-item {
+    width: 80vw !important;
+  }
+
+  .admin-sendmail-form-input {
+    width: 80vw !important;
+  }
+
+  .admin-sendmail-button {
+    width: 80vw !important;
+    font-size: 16px !important;
+    height: 35px !important;
+    margin-top: 0px !important;
+  }
+}

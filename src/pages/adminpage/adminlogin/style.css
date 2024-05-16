@@ -1,0 +1,332 @@
+.admin-login-main {
+  width: 100%;
+  min-height: 80vh;
+  padding: 0px 90px 40px 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.register-error-cont {
+  width: 100%;
+}
+.register-error-message {
+  font-size: 15px;
+  color: red;
+  text-align: center;
+}
+
+.admin-login-main-1 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 0px 0px 0px;
+}
+.admin-login-heading {
+  font-size: 27px;
+  font-family: "Lato", sans-serif;
+  color: rgb(31, 31, 166);
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 70px 0px 40px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.admin-login-form {
+  width: 100%;
+}
+
+.admin-login-form-input {
+  width: 100% !important;
+  height: 35px !important;
+  border: 1px solid rgb(141, 137, 137) !important;
+  box-shadow: none !important;
+}
+
+#login_email::placeholder,
+#login_password::placeholder {
+  color: black !important;
+  font-family: "Lato", sans-serif !important;
+  text-transform: capitalize;
+}
+
+.admin-login-button-1 {
+  width: 100% !important;
+  height: 35px !important;
+  font-size: 18px !important;
+  font-family: "Lato", sans-serif !important;
+  font-weight: 600 !important;
+  color: white !important;
+  background-color: #2626d4 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 15px 0px 0px 0px !important;
+}
+.admin-login-button-1:disabled {
+  background-color: rgb(38, 38, 212, 0.4) !important;
+}
+.admin-login-button-2 {
+  width: 100% !important;
+  height: 35px !important;
+  background-color: white !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin-top: 20px !important;
+}
+
+.admin-login-button-2 > a {
+  color: #2626d4 !important;
+  font-size: 18px !important;
+  font-family: "Lato", sans-serif !important;
+  font-weight: 600;
+  text-decoration: none;
+}
+.admin-login-button-2 > a:hover {
+  color: #474794;
+}
+.admin-login-form-cont {
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reset-email-link {
+  color: blue;
+  text-decoration: none;
+}
+.reset-email-link:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1350px) {
+  .admin-login-main {
+    width: 100%;
+    padding: 0px 90px 40px 90px;
+  }
+  .admin-login-main-1 {
+    width: 35%;
+    padding: 0px 0px 0px 0px;
+  }
+  .admin-login-heading {
+    font-size: 27px;
+    margin: 70px 0px 40px 0px;
+  }
+}
+@media screen and (max-width: 1220px) {
+  .admin-login-main {
+    width: 100%;
+    padding: 0px 70px 40px 70px;
+  }
+  .admin-login-main-1 {
+    width: 35%;
+    padding: 0px 0px 0px 0px;
+  }
+  .admin-login-heading {
+    font-size: 27px;
+    margin: 70px 0px 40px 0px;
+  }
+}
+@media screen and (max-width: 1130px) {
+  .admin-login-main {
+    width: 100%;
+    padding: 0px 70px 40px 70px;
+  }
+  .admin-login-main-1 {
+    width: 40%;
+    padding: 0px 0px 0px 0px;
+  }
+  .admin-login-heading {
+    font-size: 25px;
+    margin: 70px 0px 40px 0px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .admin-login-main {
+    width: 100%;
+    padding: 0px 50px 40px 50px;
+  }
+  .admin-login-main-1 {
+    width: 42%;
+    padding: 0px 0px 0px 0px;
+  }
+  .admin-login-heading {
+    font-size: 25px;
+    margin: 70px 0px 40px 0px;
+  }
+}
+@media screen and (max-width: 880px) {
+  .admin-login-main {
+    width: 100%;
+    padding: 0px 40px 40px 40px;
+  }
+  .admin-login-main-1 {
+    width: 45%;
+    padding: 0px 0px 0px 0px;
+  }
+  .admin-login-heading {
+    font-size: 25px;
+    margin: 60px 0px 40px 0px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .admin-login-main {
+    width: 100%;
+    padding: 0px 40px 40px 40px;
+  }
+  .admin-login-main-1 {
+    width: 45%;
+    padding: 0px 0px 0px 0px;
+  }
+  .admin-login-heading {
+    font-size: 25px;
+    margin: 60px 0px 40px 0px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .admin-login-main {
+    width: 100%;
+    padding: 0px 30px 40px 30px;
+  }
+  .admin-login-main-1 {
+    width: 50%;
+    padding: 0px 0px 0px 0px;
+  }
+  .admin-login-heading {
+    font-size: 20px;
+    margin: 50px 0px 40px 0px;
+  }
+  .admin-login-button-1 {
+    margin: 15px 0px 0px 0px !important;
+  }
+  .admin-login-button-2 {
+    margin-top: 15px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .admin-login-main {
+    width: 100%;
+    padding: 0px 20px 40px 20px;
+  }
+  .admin-login-main-1 {
+    width: 55%;
+    padding: 0px 0px 0px 0px;
+  }
+  .admin-login-heading {
+    font-size: 20px;
+    margin: 40px 0px 40px 0px;
+  }
+  .admin-login-button-1 {
+    margin: 10px 0px 0px 0px !important;
+  }
+}
+@media screen and (max-width: 555px) {
+  .admin-login-main {
+    width: 100%;
+    padding: 0px 20px 40px 20px;
+  }
+  .admin-login-main-1 {
+    width: 57%;
+    padding: 0px 0px 0px 0px;
+  }
+  .admin-login-heading {
+    font-size: 20px;
+    margin: 30px 0px 20px 0px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .admin-login-main-1 {
+    width: 70%;
+    padding: 0px 0px 0px 0px;
+  }
+  .admin-login-heading {
+    font-size: 18px;
+    margin: 30px 0px 20px 0px;
+  }
+
+  .admin-login-form-input {
+    height: 30px !important;
+  }
+
+  .admin-login-button-1 {
+    height: 30px !important;
+    font-size: 16px !important;
+
+    font-weight: 500 !important;
+  }
+
+  .admin-login-button-2 {
+    height: 30px !important;
+    margin-top: 10px !important;
+  }
+  .admin-login-button-2 > a {
+    font-size: 16px !important;
+
+    font-weight: 500;
+  }
+}
+@media screen and (max-width: 400px) {
+  .admin-login-main-1 {
+    width: 95%;
+    padding: 0px 0px 0px 0px;
+  }
+  .admin-login-heading {
+    font-size: 18px;
+    margin: 30px 0px 20px 0px;
+  }
+
+  .admin-login-form-input {
+    height: 30px !important;
+  }
+
+  .admin-login-button-1 {
+    height: 30px !important;
+    font-size: 16px !important;
+
+    font-weight: 500 !important;
+  }
+
+  .admin-login-button-2 {
+    height: 30px !important;
+    margin-top: 10px !important;
+  }
+  .admin-login-button-2 > a {
+    font-size: 16px !important;
+
+    font-weight: 500;
+  }
+}
+@media screen and (max-width: 300px) {
+  .admin-login-main-1 {
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+  }
+  .admin-login-heading {
+    font-size: 18px;
+    margin: 30px 0px 20px 0px;
+  }
+
+  .admin-login-form-input {
+    height: 30px !important;
+  }
+  .admin-login-button-1 {
+    height: 30px !important;
+    font-size: 16px !important;
+
+    font-weight: 500 !important;
+  }
+
+  .admin-login-button-2 {
+    height: 30px !important;
+  }
+  .admin-login-button-2 > a {
+    font-size: 16px !important;
+    font-weight: 500;
+  }
+}
